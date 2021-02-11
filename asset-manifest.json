@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/zi-portfolio/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/zi-portfolio/static/js/main.3e44de96.chunk.js",
-    "main.js.map": "/zi-portfolio/static/js/main.3e44de96.chunk.js.map",
-    "runtime-main.js": "/zi-portfolio/static/js/runtime-main.4cc79174.js",
-    "runtime-main.js.map": "/zi-portfolio/static/js/runtime-main.4cc79174.js.map",
-    "static/js/2.b3a44b5b.chunk.js": "/zi-portfolio/static/js/2.b3a44b5b.chunk.js",
-    "static/js/2.b3a44b5b.chunk.js.map": "/zi-portfolio/static/js/2.b3a44b5b.chunk.js.map",
-    "static/js/3.a0c2193a.chunk.js": "/zi-portfolio/static/js/3.a0c2193a.chunk.js",
-    "static/js/3.a0c2193a.chunk.js.map": "/zi-portfolio/static/js/3.a0c2193a.chunk.js.map",
+    "main.css": "/zi-portfolio/static/css/main.9f609049.chunk.css",
+    "main.js": "/zi-portfolio/static/js/main.97a76aee.chunk.js",
+    "main.js.map": "/zi-portfolio/static/js/main.97a76aee.chunk.js.map",
+    "runtime-main.js": "/zi-portfolio/static/js/runtime-main.879590ce.js",
+    "runtime-main.js.map": "/zi-portfolio/static/js/runtime-main.879590ce.js.map",
+    "static/css/2.3fb1750b.chunk.css": "/zi-portfolio/static/css/2.3fb1750b.chunk.css",
+    "static/js/2.0f6ca51d.chunk.js": "/zi-portfolio/static/js/2.0f6ca51d.chunk.js",
+    "static/js/2.0f6ca51d.chunk.js.map": "/zi-portfolio/static/js/2.0f6ca51d.chunk.js.map",
+    "static/js/3.cb3eda20.chunk.js": "/zi-portfolio/static/js/3.cb3eda20.chunk.js",
+    "static/js/3.cb3eda20.chunk.js.map": "/zi-portfolio/static/js/3.cb3eda20.chunk.js.map",
     "index.html": "/zi-portfolio/index.html",
     "service-worker.js": "/zi-portfolio/service-worker.js",
     "service-worker.js.map": "/zi-portfolio/service-worker.js.map",
-    "static/css/main.8c8b27cf.chunk.css.map": "/zi-portfolio/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.b3a44b5b.chunk.js.LICENSE.txt": "/zi-portfolio/static/js/2.b3a44b5b.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/zi-portfolio/static/media/logo.103b5fa1.svg"
+    "static/css/2.3fb1750b.chunk.css.map": "/zi-portfolio/static/css/2.3fb1750b.chunk.css.map",
+    "static/css/main.9f609049.chunk.css.map": "/zi-portfolio/static/css/main.9f609049.chunk.css.map",
+    "static/js/2.0f6ca51d.chunk.js.LICENSE.txt": "/zi-portfolio/static/js/2.0f6ca51d.chunk.js.LICENSE.txt",
+    "static/media/ZI-Logo.26166d4b.png": "/zi-portfolio/static/media/ZI-Logo.26166d4b.png",
+    "static/media/connect.f1ef42da.png": "/zi-portfolio/static/media/connect.f1ef42da.png",
+    "static/media/all.min.css": "/zi-portfolio/static/media/fa-solid-900.f4f93856.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.4cc79174.js",
-    "static/js/2.b3a44b5b.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.3e44de96.chunk.js"
+    "static/js/runtime-main.879590ce.js",
+    "static/css/2.3fb1750b.chunk.css",
+    "static/js/2.0f6ca51d.chunk.js",
+    "static/css/main.9f609049.chunk.css",
+    "static/js/main.97a76aee.chunk.js"
   ]
 }
