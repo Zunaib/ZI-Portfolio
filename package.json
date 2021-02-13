@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "http://zunaib.github.io/zi-portfolio",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -56,6 +58,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "@types/node-sass": "^4.11.1",
+    "gh-pages": "^3.1.0",
+    "node-sass": "^5.0.0"
   }
 }

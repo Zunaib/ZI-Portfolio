@@ -1,0 +1,79 @@
+.footer {
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+
+    .stack-links {
+        display: flex;
+        background-color: transparent;
+        position: fixed;
+        flex-direction: column;
+        left: 60px;
+        bottom: 0px;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        mix-blend-mode: difference;
+
+        a {
+            .stack-svg {
+                filter: gray; /* IE6-9 */
+                -webkit-filter: grayscale(100%);
+                transition: 0.5s filter;
+            }
+            .stack-svg:hover {
+                filter: none;
+                -webkit-filter: grayscale(0%);
+            }
+        }
+
+        a:nth-child(4) {
+            margin-bottom: 8px;
+        }
+    }
+
+    .email-link {
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        right: 40px;
+        bottom: 0px;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        mix-blend-mode: difference;
+        
+        .anchor-email {
+            cursor: pointer;
+            text-decoration: none;
+            p {
+                transition: 0.5s color;
+            }
+        }
+        a.anchor-email:hover {
+            p {
+                color: #e6284a;
+            }
+        }
+
+        .p-email {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            color: white;
+            mix-blend-mode: difference;
+            margin-bottom: 15px;
+            font-size: 16px;
+
+        }
+    }
+    .line {
+        height: 100px;
+        width: 2px;
+        background-color: white;
+        margin-bottom: 15px;
+    }
+}

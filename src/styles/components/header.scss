@@ -1,0 +1,160 @@
+.topbar {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 78px;
+    padding: 0px;
+    margin: 0px;
+    z-index: 50;
+    box-sizing: border-box;
+    clear: both;
+    background-color: transparent;
+}
+
+.topbar-fixed {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.topbar-left {
+    display: block;
+    float: left;
+    clear: both;
+}
+
+.topbar-logo {
+    display: block;
+    width: 190px;
+    height: 78px;
+    float: left;
+    position: relative;
+    margin: 0 50px;
+    padding: 0px;
+
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+
+    > img {
+        transition: 0.4s display;
+        max-width: 190px;
+        max-height: 78px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.topbar-right {
+    display: block;
+    float: right;
+    margin: 0 50px;
+
+    .sidenav-btn {
+        cursor: pointer;
+        display: block;
+        float: left;
+        width: 78px;
+        height: 78px;
+        color: #ffffff;
+
+        > span {
+            padding: 11px 14px;
+        }
+    }
+
+    .hamburger-icon {
+        padding: 24px 16px;
+
+        animation: fadeIn ease 1s;
+        -webkit-animation: fadeIn ease 1s;
+        -moz-animation: fadeIn ease 1s;
+        -o-animation: fadeIn ease 1s;
+        -ms-animation: fadeIn ease 1s;
+
+        div {
+            height: 3px;
+            background: #ffffff;
+            margin: 4px 0px;
+            transition: all 0.5s;
+            float: right;
+            clear: both;
+
+            &:nth-child(1) {
+                width: 30px;
+                transition: all 0.5s;
+            }
+            &:nth-child(2) {
+                width: 20px;
+                transition: all 0.5s;
+            }
+            &:nth-child(3) {
+                width: 10px;
+                transition: all 0.5s;
+            }
+        }
+
+        &:hover div:nth-child(1) {
+            width: 40px;
+            transition: all 0.5s;
+        }
+        &:hover div:nth-child(2) {
+            width: 40px;
+            transition: all 0.5s;
+        }
+        &:hover div:nth-child(3) {
+            width: 40px;
+            transition: all 0.5s;
+        }
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

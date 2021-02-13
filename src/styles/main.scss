@@ -1,0 +1,28 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  background-color: rgb(43, 43, 43);
+  font-family: "Oxanium", cursive;
+}
+
+// @import 'font-awesome/css/font-awesome.min.css';
+
+//General
+@import "./general.scss";
+@import "./keyframes.scss";
+
+//Components
+@import "./components/header.scss";
+@import "./components/layout.scss";
+@import "./components/navdropdown.scss";
+@import "./components/connect.scss";
+@import "./components/experience.scss";
+@import "./components/intro.scss";
+@import "./components/stack.scss";

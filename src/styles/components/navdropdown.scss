@@ -1,0 +1,142 @@
+.nav-drop {
+    position: fixed;
+    height: 500px;
+    max-height: 500px;
+    width: 100%;
+    background-color: #1b1b1b;
+    z-index: 10000;
+    opacity: 0;
+
+    -webkit-transform: translateY(-100vh);
+    -ms-transform: translateY(-100vh);
+    transform: translateY(-100vh);
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+
+    &.drop-active {
+        // display: block;
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s;
+    }
+
+    .navdrop-right {
+        display: block;
+        float: right;
+
+        .navdrop-close {
+            cursor: pointer;
+            display: block;
+            position: fixed;
+            right: 0;
+            top: 0;
+            width: 42px;
+            height: 42px;
+            transition: transform 0.5s ease-in-out;
+            padding: 20px;
+            margin: 5px 35px;
+        }
+        .navdrop-close:hover {
+            transform: rotate(180deg);
+        }
+        .navdrop-close:before {
+            content: "";
+            position: absolute;
+            display: block;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 42px;
+            height: 0;
+            border-top: 3px solid rgba(255, 255, 255, 1);
+            transform: rotate(45deg);
+            transform-origin: center;
+        }
+        .navdrop-close:after {
+            content: "";
+            position: absolute;
+            display: block;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 42px;
+            height: 0;
+            border-top: 3px solid rgba(255, 255, 255, 1);
+            transform: rotate(-45deg);
+            transform-origin: center;
+        }
+    }
+
+    .drop-links {
+        max-height: 500px;
+        width: 100vw;
+        padding-top: 100px;
+        padding-bottom: 10px;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        opacity: 1;
+        z-index: 10000;
+        transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+        .styled-links {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-align-items: flex-end;
+            -webkit-box-align: flex-end;
+            -ms-flex-align: flex-end;
+            align-items: flex-end;
+
+            .nav-link {
+                color: #fafaff;
+                text-shadow: -1px -1px 0 #30343f, 1px -1px 0 #30343f, -1px 1px 0 #30343f, 1px 1px 0 #30343f;
+                font-size: 44px;
+                margin-top: 15px;
+                -webkit-transition: opacity 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+                transition: opacity 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+                font-weight: 600;
+                text-decoration: none;
+                transition: color 0.5s;
+
+                &:hover {
+                    color: #ff0000;
+                }
+            }
+        }
+    }
+
+    .drop-stack-links {
+        display: flex;
+        flex-direction: row;
+        margin-top: 25px;
+        opacity: 1;
+        justify-content: flex-end;
+
+        a {
+            margin: 0 5px;
+            .stack-svg {
+                filter: gray; /* IE6-9 */
+                -webkit-filter: grayscale(100%);
+                transition: 0.5s filter;
+            }
+            .stack-svg:hover {
+                filter: none;
+                -webkit-filter: grayscale(0%);
+            }
+        }
+    }
+}
