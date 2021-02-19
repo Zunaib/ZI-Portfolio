@@ -2,7 +2,7 @@ import React from "react";
 
 const LinkedIn = () => (
   <a
-    href="https://www.linkedin.com/in/cadekynaston/"
+    href="https://www.linkedin.com/in/zunaib-imtiaz/"
     target="_blank"
     rel="noopener noreferrer"
   >

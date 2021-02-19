@@ -1,9 +1,13 @@
-import React from "react";
+import React, { FC } from "react";
 import ConnectIMG from "../../assets/connect.png";
 
-const Connect = () => {
+interface ConnectProps {
+  scrollRef: any;
+}
+
+const Connect: FC<ConnectProps> = function ({ scrollRef }) {
   return (
-    <section className="connect">
+    <div className="connect" ref={scrollRef}>
       <div className="connect-inner">
         <div className="connect-form">
           <h2 className="connect-title" data-sr-id="8">
@@ -53,7 +57,7 @@ const Connect = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

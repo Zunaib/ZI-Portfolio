@@ -1,9 +1,35 @@
+.backdrop {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(55, 55, 55, 0.474);
+    z-index: 100;
+    opacity: 0;
+
+    -webkit-transform: translateY(-100vh);
+    -ms-transform: translateY(-100vh);
+    transform: translateY(-100vh);
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+
+    &.drop-active {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s;
+    }
+}
+
 .nav-drop {
     position: fixed;
     height: 500px;
     max-height: 500px;
     width: 100%;
-    background-color: #1b1b1b;
+    background-color: rgb(55, 55, 55);
     z-index: 10000;
     opacity: 0;
 
@@ -17,7 +43,6 @@
     transition-delay: 0.2s;
 
     &.drop-active {
-        // display: block;
         opacity: 1;
         -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
@@ -42,9 +67,11 @@
             padding: 20px;
             margin: 5px 35px;
         }
+
         .navdrop-close:hover {
             transform: rotate(180deg);
         }
+
         .navdrop-close:before {
             content: "";
             position: absolute;
@@ -60,6 +87,7 @@
             transform: rotate(45deg);
             transform-origin: center;
         }
+
         .navdrop-close:after {
             content: "";
             position: absolute;
@@ -111,6 +139,7 @@
                 font-weight: 600;
                 text-decoration: none;
                 transition: color 0.5s;
+                cursor: pointer;
 
                 &:hover {
                     color: #ff0000;
@@ -128,11 +157,14 @@
 
         a {
             margin: 0 5px;
+
             .stack-svg {
-                filter: gray; /* IE6-9 */
+                filter: gray;
+                /* IE6-9 */
                 -webkit-filter: grayscale(100%);
                 transition: 0.5s filter;
             }
+
             .stack-svg:hover {
                 filter: none;
                 -webkit-filter: grayscale(0%);

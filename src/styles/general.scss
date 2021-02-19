@@ -1,19 +1,19 @@
 // ScrollBar
 
 ::-webkit-scrollbar {
-  width: 14px;
+  width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-  border-radius: 10px;
-  box-shadow: inset 0 0 10px 10px transparent;
-  border: solid 3px transparent;
+  // border-radius: 10px;
+  box-shadow: inset 0 0 10px 10px rgb(55, 55, 55);
+  border: solid 3px rgb(55, 55, 55);
 }
 
 ::-webkit-scrollbar-thumb {
   box-shadow: #ffffff;
   border-radius: 10px;
-  box-shadow: inset 0 0 10px 10px #a7a7a7;
+  box-shadow: inset 0 0 10px 10px #a0a0a0;
   border: solid 3px transparent;
 }
 
@@ -40,4 +40,3 @@
   text-align: center;
   position: relative;
 }
-

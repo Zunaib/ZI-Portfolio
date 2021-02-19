@@ -1,14 +1,16 @@
 html {
+  scroll-behavior: smooth;
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
-  background-color: rgb(43, 43, 43);
+  background-color: rgb(80, 80, 80);
   font-family: "Oxanium", cursive;
 }
 
@@ -26,3 +28,4 @@ body {
 @import "./components/experience.scss";
 @import "./components/intro.scss";
 @import "./components/stack.scss";
+@import "./components/projects.scss";

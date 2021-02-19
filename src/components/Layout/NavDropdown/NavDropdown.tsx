@@ -6,28 +6,37 @@ import LinkedIn from "../../Svg/LinkedIn";
 
 export interface NavDropdownProps {
   open?: boolean;
+  onProjectsClick: () => void;
+  onContactClick: () => void;
+  onExpClick: () => void;
   onClose: () => void;
 }
 
-const NavDropdown: FC<NavDropdownProps> = ({ open, onClose }) => {
+const NavDropdown: FC<NavDropdownProps> = ({
+  open,
+  onClose,
+  onExpClick,
+  onContactClick,
+  onProjectsClick,
+}) => {
   return (
-    <>
+    <div>
       <div className={`nav-drop ${open && "drop-active"}`}>
         <section className="navdrop-right">
           <div className="drop-links">
             <div className="navdrop-close" onClick={onClose}></div>
             <div className="styled-links">
-              <a href="#projects" className={`nav-link `}>
-                Projects
-              </a>
-              <a href="#experience" className={`nav-link `}>
+              <div className="nav-link" onClick={onExpClick}>
                 Experience
-              </a>
-              <a href="#contact" className={`nav-link `}>
+              </div>
+              <div className="nav-link" onClick={onProjectsClick}>
+                Projects
+              </div>
+              <div className="nav-link" onClick={onContactClick}>
                 Contact
-              </a>
+              </div>
               <a
-                className={`nav-link `}
+                className="nav-link"
                 href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -44,7 +53,11 @@ const NavDropdown: FC<NavDropdownProps> = ({ open, onClose }) => {
           </div>
         </section>
       </div>
-    </>
+      <div
+        className={`backdrop ${open && "drop-active"}`}
+        onClick={onClose}
+      ></div>
+    </div>
   );
 };
 

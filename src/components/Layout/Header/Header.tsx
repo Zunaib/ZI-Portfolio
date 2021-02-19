@@ -10,7 +10,7 @@ const Header: FC<HeaderProps> = ({ onClick }) => {
     <header className={"topbar topbar-fixed"}>
       <section className={"topbar-left"}>
         <a className="topbar-logo" href="/zi-portfolio/">
-          <img src={Logo} alt="..." />
+          <img src={Logo} alt="Zunaib Imtiaz Logo" />
         </a>
       </section>
 
