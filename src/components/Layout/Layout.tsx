@@ -6,6 +6,7 @@ import Github from "../Svg/Github";
 import Npm from "../Svg/Npm";
 import StackOverflow from "../Svg/StackOverflow";
 import LinkedIn from "../Svg/LinkedIn";
+import { useWidthHeight } from "../useWidthHeight";
 export interface LayoutProps {
   onProjectsScroll: () => void;
   onContactScroll: () => void;
@@ -19,6 +20,9 @@ const Layout: FC<LayoutProps> = ({
   onContactScroll,
   onProjectsScroll,
 }) => {
+  const { width } = useWidthHeight();
+  const breakpoint = 1200;
+
   const [navDrop, setnavDrop] = useState(false);
 
   return (
@@ -43,11 +47,23 @@ const Layout: FC<LayoutProps> = ({
       <main>{children}</main>
       <div className="footer">
         <div className="stack-links">
-          <Github />
-          <Npm />
-          <StackOverflow />
-          <LinkedIn />
-          <div className="line"></div>
+          {width < breakpoint ? (
+            <>
+              <div className="line"></div>
+              <Github />
+              <Npm />
+              <StackOverflow />
+              <LinkedIn />
+            </>
+          ) : (
+            <>
+              <Github />
+              <Npm />
+              <StackOverflow />
+              <LinkedIn />
+              <div className="line"></div>
+            </>
+          )}
         </div>
         <div className="email-link">
           <a className="anchor-email" href="mailto:zunaib60@gmail.com">

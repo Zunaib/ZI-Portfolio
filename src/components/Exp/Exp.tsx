@@ -94,10 +94,10 @@ const Exp: FC<ExpProps> = function ({ show, onClick, scrollRef }) {
               <ul className="list">
                 <li>Shopify</li>
                 <li>Custom Designs</li>
-                <li>External API Integration</li>
+                <li>API Integration</li>
                 <li>Ant Design</li>
                 <li>Material UI</li>
-                <li>Photoshop Designs To React Pages</li>
+                <li>PSD To React Pages</li>
               </ul>
             </div>
           </div>

@@ -29,7 +29,6 @@
     .intro-one {
         color: rgb(173, 173, 173);
         font-size: 20px;
-        max-width: 480px;
         font-weight: 300;
         box-sizing: border-box;
         display: block;
@@ -46,13 +45,12 @@
 
     .intro-three {
         color: rgb(173, 173, 173);
-        max-width: 900px;
         font-size: 36px;
         font-weight: 400;
         display: block;
 
         .intro-afiniti {
-            color: #e6284a;
+            color: $highlight-color;
             text-decoration: none;
             padding: 0 10px;
 
@@ -69,11 +67,141 @@
     .intro-four {
         font-size: 20px;
         color: rgb(173, 173, 173);
-        max-width: 480px;
+        // max-width: 480px;
         font-size: 18px;
         font-weight: 300;
         box-sizing: border-box;
         display: block;
         font-weight: bold;
     }
+}
+
+@media (min-width: 1200px) {
+    .intro {
+        .intro-one {
+            max-width: 480px;
+        }
+
+
+        .intro-three {
+            max-width: 900px;
+
+        }
+
+        .intro-four {
+            max-width: 480px;
+        }
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+
+    .intro {
+        margin: 0 auto;
+        padding: 0px 50px 0px 100px;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            line-height: 25px;
+            margin-top: 10px;
+        }
+
+        .intro-one {
+            font-size: 22px;
+        }
+
+        .intro-two {
+            font-size: 50px;
+        }
+
+        .intro-three {
+            line-height: 40px;
+            font-size: 26px;
+        }
+
+        .intro-four {
+            max-width: 480px;
+            font-size: 22px;
+        }
+    }
+
+}
+
+@media (min-width: 401px) and (max-width: 800px) {
+
+    .intro {
+        margin: 0 auto;
+        padding: 0 30px 0px 50px;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            line-height: 25px;
+            margin-top: 10px;
+        }
+
+        .intro-one {
+            font-size: 18px;
+        }
+
+        .intro-two {
+            font-size: 40px;
+        }
+
+        .intro-three {
+            line-height: 35px;
+            font-size: 26px;
+        }
+
+        .intro-four {
+            max-width: 480px;
+            font-size: 18px;
+        }
+    }
+
+
+
+}
+
+@media (max-width: 400px) {
+
+    .intro {
+        margin: 0 auto;
+        padding: 0px 20px 0px 35px;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            line-height: 25px;
+            margin-top: 10px;
+        }
+
+        .intro-one {
+            font-size: 18px;
+        }
+
+        .intro-two {
+            font-size: 40px;
+        }
+
+        .intro-three {
+            line-height: 35px;
+            font-size: 26px;
+        }
+
+        .intro-four {
+            font-size: 18px;
+        }
+    }
+
 }

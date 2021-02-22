@@ -35,14 +35,7 @@ const NavDropdown: FC<NavDropdownProps> = ({
               <div className="nav-link" onClick={onContactClick}>
                 Contact
               </div>
-              <a
-                className="nav-link"
-                href="/resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Resume
-              </a>
+              <div className="nav-link">Resume</div>
             </div>
             <div className="drop-stack-links">
               <Github />

@@ -20,10 +20,12 @@
 
         a {
             .stack-svg {
-                filter: gray; /* IE6-9 */
+                filter: gray;
+                /* IE6-9 */
                 -webkit-filter: grayscale(100%);
                 transition: 0.5s filter;
             }
+
             .stack-svg:hover {
                 filter: none;
                 -webkit-filter: grayscale(0%);
@@ -46,17 +48,19 @@
         -webkit-box-align: center;
         align-items: center;
         mix-blend-mode: difference;
-        
+
         .anchor-email {
             cursor: pointer;
             text-decoration: none;
+
             p {
                 transition: 0.5s color;
             }
         }
+
         a.anchor-email:hover {
             p {
-                color: #e6284a;
+                color: $highlight-color;
             }
         }
 
@@ -70,10 +74,51 @@
 
         }
     }
+
     .line {
         height: 100px;
         width: 2px;
         background-color: white;
         margin-bottom: 15px;
     }
+}
+
+
+@media (min-width: 801px) and (max-width: 1200px) {
+    .footer {
+        .stack-links {
+            display: none;
+        }
+
+        .email-link {
+            display: none;
+        }
+    }
+
+}
+
+@media (min-width: 401px) and (max-width: 800px) {
+    .footer {
+        .stack-links {
+            display: none;
+        }
+
+        .email-link {
+            display: none;
+        }
+    }
+
+}
+
+@media (max-width: 400px) {
+    .footer {
+        .stack-links {
+            display: none;
+        }
+
+        .email-link {
+            display: none;
+        }
+    }
+
 }

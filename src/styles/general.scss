@@ -5,9 +5,8 @@
 }
 
 ::-webkit-scrollbar-track {
-  // border-radius: 10px;
-  box-shadow: inset 0 0 10px 10px rgb(55, 55, 55);
-  border: solid 3px rgb(55, 55, 55);
+  box-shadow: inset 0 0 10px 10px $secondary-color;
+  border: solid 3px $secondary-color;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -17,6 +16,22 @@
   border: solid 3px transparent;
 }
 
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(212, 212, 212);
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(212, 212, 212);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(212, 212, 212);
+}
 
 .index {
   position: relative;
