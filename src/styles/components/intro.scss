@@ -32,6 +32,7 @@
         font-weight: 300;
         box-sizing: border-box;
         display: block;
+
     }
 
     .intro-two {
@@ -41,6 +42,7 @@
         box-sizing: border-box;
         display: block;
         font-weight: bold;
+        text-shadow: 2px 2px 6px #000000;
     }
 
     .intro-three {
@@ -48,6 +50,7 @@
         font-size: 36px;
         font-weight: 400;
         display: block;
+
 
         .intro-afiniti {
             color: $highlight-color;
@@ -67,7 +70,6 @@
     .intro-four {
         font-size: 20px;
         color: rgb(173, 173, 173);
-        // max-width: 480px;
         font-size: 18px;
         font-weight: 300;
         box-sizing: border-box;
@@ -193,6 +195,7 @@
 
         .intro-two {
             font-size: 40px;
+
         }
 
         .intro-three {
@@ -201,6 +204,7 @@
         }
 
         .intro-four {
+            max-width: 300px;
             font-size: 18px;
         }
     }

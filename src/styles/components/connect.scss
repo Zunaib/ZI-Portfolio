@@ -46,6 +46,7 @@
                         }
 
                         input {
+                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                             padding-right: 150px;
                             width: 100%;
                             max-width: 100%;
@@ -83,6 +84,7 @@
                         }
 
                         input {
+                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                             padding-right: 150px;
                             width: 100%;
                             max-width: 100%;
@@ -119,6 +121,7 @@
                         }
 
                         textarea {
+                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                             width: 100%;
                             max-width: 100%;
                             border: 1px solid $base-color;
@@ -139,6 +142,7 @@
                 }
 
                 .btn-send {
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                     cursor: pointer;
                     display: block;
                     background-color: $highlight-color;
