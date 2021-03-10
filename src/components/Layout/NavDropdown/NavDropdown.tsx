@@ -35,7 +35,16 @@ const NavDropdown: FC<NavDropdownProps> = ({
               <div className="nav-link" onClick={onContactClick}>
                 Contact
               </div>
-              <div className="nav-link">Resume</div>
+              <a
+                target="__blank"
+                href={process.env.PUBLIC_URL + "/Resume - Zunaib Imtiaz.pdf"}
+              >
+                <div className="nav-link">Resume</div>
+              </a>
+
+              {/* <div className="nav-link" onClick={() => downloadResume()}>
+                Resume
+              </div> */}
             </div>
             <div className="drop-stack-links">
               <Github />
