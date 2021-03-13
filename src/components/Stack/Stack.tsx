@@ -26,10 +26,10 @@ export const Stack = () => {
             <li className="stack-elem">NextJS</li>
             <li className="stack-elem">GatsbyJS</li>
             <li className="stack-elem">Storybook</li>
+            <li className="stack-elem">Javascript</li>
             <li className="stack-elem">Typescript</li>
             <li className="stack-elem">HTML/ CSS / SaSS</li>
             <li className="stack-elem">Adobe Photoshop</li>
-            <li className="stack-elem">Adobe XD</li>
           </ul>
         </div>
         <div className="stack-dev">
@@ -48,9 +48,10 @@ export const Stack = () => {
           <ul className="stack-list">
             <li className="stack-elem">NodeJS</li>
             <li className="stack-elem">Golang</li>
+            <li className="stack-elem">Python</li>
             <li className="stack-elem">PHP</li>
             <li className="stack-elem">Java</li>
-            <li className="stack-elem">Javascript</li>
+            <li className="stack-elem">Hasura</li>
             <li className="stack-elem">MongoDB</li>
             <li className="stack-elem">SQL</li>
             <li className="stack-elem">Git</li>

@@ -38,7 +38,7 @@
     transform: translateY(-100vh);
     -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-    box-shadow: 0 3px 6px rgba(31, 64, 104, 0.16), 0 3px 6px rgba(31, 64, 104, 0.23);
+    box-shadow: 0 3px 6px rgba($secondary-color, 0.2), 0 3px 6px rgba($secondary-color, 0.2);
     -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s;
 
