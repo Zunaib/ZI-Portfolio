@@ -97,10 +97,11 @@ const Projects: FC<ProjectsProps> = function ({ show, onClick, scrollRef }) {
           >
             <div className="proj-content">
               <p className="proj-description">
-                I developed this site using <em>Shopify</em> and its objects.
-                According to client demands i had to integrate Javascript and
-                Sass to develop custom functionality and styling respectively.
-                Delivering full client satisfaction.
+                Our Family Tales is a Story Telling Website. I developed this
+                site for an Upwork client too, she wanted a fully customizable
+                questionnaire built into a new Shopify store, I did both to
+                those things using some of shopify’ s built-in functionalities,
+                Vanilla Java-script and Scss.
               </p>
               <p className="proj-link">
                 Take a loot at -
@@ -130,9 +131,10 @@ const Projects: FC<ProjectsProps> = function ({ show, onClick, scrollRef }) {
           >
             <div className="proj-content">
               <p className="proj-description">
-                I developed this site using MERN Stack. I used React and Ant
-                Design to build Fully Responsive Custom Featured UI, Node and
-                Mongo to handle Data Services.
+                CFIReview is a Review Website for Flying Instructors. I
+                developed this website for an Upwork client, she wanted custom
+                designs and a fully responsive site. This site was developed
+                using React, Node, Mongo, Scss and Ant Design.
               </p>
               <p className="proj-link">
                 Take a loot at -

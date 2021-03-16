@@ -36,6 +36,7 @@ const NavDropdown: FC<NavDropdownProps> = ({
                 Contact
               </div>
               <a
+                onClick={onClose}
                 target="__blank"
                 href={process.env.PUBLIC_URL + "/Resume - Zunaib Imtiaz.pdf"}
               >

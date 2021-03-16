@@ -46,8 +46,8 @@ function App() {
             </a>
           </h3>
           <h5 className="intro-four">
-            I'm currently working with React, Redux, Typescript, Storybook,
-            Scss, GatsbyJS, NextJS and much more exciting technologies.
+            I'm currently working with React, Redux, Typescript, Javascript,
+            Scss, NodeJs, Hasura, MongoDB and much more exciting technologies.
           </h5>
         </div>
       </div>
