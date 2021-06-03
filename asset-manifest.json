@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/zi-portfolio/static/css/main.c9fa7da4.chunk.css",
+    "main.css": "/zi-portfolio/static/css/main.656a31d7.chunk.css",
     "main.js": "/zi-portfolio/static/js/main.6744adb5.chunk.js",
     "main.js.map": "/zi-portfolio/static/js/main.6744adb5.chunk.js.map",
     "runtime-main.js": "/zi-portfolio/static/js/runtime-main.179e3d5d.js",
@@ -14,7 +14,7 @@
     "service-worker.js": "/zi-portfolio/service-worker.js",
     "service-worker.js.map": "/zi-portfolio/service-worker.js.map",
     "static/css/2.3fb1750b.chunk.css.map": "/zi-portfolio/static/css/2.3fb1750b.chunk.css.map",
-    "static/css/main.c9fa7da4.chunk.css.map": "/zi-portfolio/static/css/main.c9fa7da4.chunk.css.map",
+    "static/css/main.656a31d7.chunk.css.map": "/zi-portfolio/static/css/main.656a31d7.chunk.css.map",
     "static/js/2.a14431db.chunk.js.LICENSE.txt": "/zi-portfolio/static/js/2.a14431db.chunk.js.LICENSE.txt",
     "static/media/ZI-Logo.26166d4b.png": "/zi-portfolio/static/media/ZI-Logo.26166d4b.png",
     "static/media/connect.f1ef42da.png": "/zi-portfolio/static/media/connect.f1ef42da.png",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.179e3d5d.js",
     "static/css/2.3fb1750b.chunk.css",
     "static/js/2.a14431db.chunk.js",
-    "static/css/main.c9fa7da4.chunk.css",
+    "static/css/main.656a31d7.chunk.css",
     "static/js/main.6744adb5.chunk.js"
   ]
 }
