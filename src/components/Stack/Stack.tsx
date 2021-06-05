@@ -47,14 +47,14 @@ export const Stack = () => {
           <p className="stack-subtitle">Dev Tools + languages</p>
           <ul className="stack-list">
             <li className="stack-elem">NodeJS</li>
-            <li className="stack-elem">Golang</li>
+            <li className="stack-elem">Express</li>
             <li className="stack-elem">Python</li>
             <li className="stack-elem">PHP</li>
-            <li className="stack-elem">Java</li>
             <li className="stack-elem">Hasura</li>
             <li className="stack-elem">MongoDB</li>
             <li className="stack-elem">SQL</li>
             <li className="stack-elem">Git</li>
+            <li className="stack-elem">Bitbucket</li>
           </ul>
         </div>
       </div>

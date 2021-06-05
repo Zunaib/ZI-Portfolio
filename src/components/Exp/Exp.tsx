@@ -51,23 +51,27 @@ const Exp: FC<ExpProps> = function ({ show, onClick, scrollRef }) {
                 May 2019 — Mar 2020 - Analyst Software Engineer
               </p>
               <p className="work-description">
-                At Afinti i am working on numerous projects, building Powerful
-                and Responsive UI's, occasionally binding data elements too. I
-                have developed a component library for the team aswell. All my
-                work is in the following.
+                At Afiniti I started as an Analyst Software Engineer, initially
+                worked on the User Interface development of an application and
+                later on moved to Server-Side Development. I got promoted to
+                Software Engineer in under 10 months and starting working on
+                Full Stack Applications from scratch, training junior employees
+                and developing services. I’ve worked on projects from
+                diversified domains using following tools and technologies,
               </p>
               <ul className="list">
                 <li>React</li>
                 <li>Redux</li>
                 <li>Typescript</li>
                 <li>NextJS</li>
-                <li>Gatsby</li>
+                <li>HTML 5/ CSS 3</li>
                 <li>Storybook</li>
                 <li>Mongo</li>
-                <li>Node</li>
-                <li>GraphQL</li>
+                <li>MySQL</li>
+                <li>NodeJS</li>
+                <li>Python</li>
                 <li>Hasura</li>
-                <li>Sass</li>
+                <li>SASS / Theming</li>
               </ul>
             </div>
           </div>
@@ -87,9 +91,12 @@ const Exp: FC<ExpProps> = function ({ show, onClick, scrollRef }) {
             <div className="work-content">
               <p className="work-tenure">Sept 2019 — Current</p>
               <p className="work-description">
-                Working on Upwork, I've developed web applications for a lot of
-                clients. Working on those websites i learned a lot of new things
-                like:
+                Working on Upwork, I’ve dealt with projects from diverse domains
+                and technologies. I have encountered issues and obstacles out of
+                an organizational environment on Upwork which had let me to grow
+                personally and professionally improving customer experience and
+                my technical skills. While being a Freelancer I’ve performed /
+                Worked on following,
               </p>
               <ul className="list">
                 <li>Shopify</li>

@@ -35,7 +35,7 @@ function App() {
           <h5 className="intro-one">Hi, I'm</h5>
           <h1 className="intro-two">Zunaib Imtiaz.</h1>
           <h3 className="intro-three">
-            Software Engineer at
+            Full Stack Developer at
             <a
               className="intro-afiniti"
               href="https://www.afiniti.com/"
@@ -46,8 +46,10 @@ function App() {
             </a>
           </h3>
           <h5 className="intro-four">
-            I'm currently working with React, Redux, Typescript, Javascript,
-            Scss, NodeJs, Hasura, MongoDB and much more exciting technologies.
+            I have a background in user interface development, prototype
+            designing and experience working on complex interface systems and
+            modular application servers for a wide range of experiences as well
+            as the tooling needed to help achieve that goal.
           </h5>
         </div>
       </div>
