@@ -51,12 +51,13 @@ const Exp: FC<ExpProps> = function ({ show, onClick, scrollRef }) {
                 May 2019 — Mar 2020 - Analyst Software Engineer
               </p>
               <p className="work-description">
-                At Afiniti I started as an Analyst Software Engineer, initially
-                worked on the User Interface development of an application and
-                later on moved to Server-Side Development. I got promoted to
-                Software Engineer in under 10 months and starting working on
-                Full Stack Applications from scratch, training junior employees
-                and developing services. I’ve worked on projects from
+                At Afiniti, started as an Analyst Software Engineer, initially
+                worked on the user interface development part of an application
+                and later on moved to Full Stack Development. Working
+                excellently for 10 months got me promoted to Software Engineer
+                and starting working on Full Stack Applications, building the
+                whole applications from ground up to deployments, developing
+                services and training junior employees. Worked on projects from
                 diversified domains using following tools and technologies,
               </p>
               <ul className="list">
